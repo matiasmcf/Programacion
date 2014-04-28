@@ -10,7 +10,7 @@ char* str_lwr (char*);
 char* str_chr (char*, char);
 char* str_rchr (char*, char);
 
-int main () //Genera un menú con opciones para probar las funciones
+int main () //Genera un menu con opciones para probar las funciones
 {
     char cad1 [30], cad2 [30],c;
     int res;
@@ -18,7 +18,7 @@ int main () //Genera un menú con opciones para probar las funciones
     do
     {
         puts ("\n\n*******************************************************");
-        puts("\nSeleccione una opcion:\n\n\t0 : cmp\n\t1 : cmpi\n\t2 : str\n\t3 : cat\n\t4 : cpy\n\t5 : upr\n\t6 : lwr\n\t7 : chr\n\t8 : rchr\n\nQ : Salir");
+        puts("\nSeleccione una opcion:\n\n\t0 : str_cmp\n\t1 : str_cmpi\n\t2 : str_str\n\t3 : str_cat\n\t4 : str_cpy\n\t5 : str_upr\n\t6 : str_lwr\n\t7 : str_chr\n\t8 : str_rchr\n\nQ : Salir");
         scanf("%c",&opcion);
         switch (opcion)
         {
